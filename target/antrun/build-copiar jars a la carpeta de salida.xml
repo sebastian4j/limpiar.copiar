@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="copiar jars a la carpeta de salida"  >
+<target name="copiar jars a la carpeta de salida">
+  <copy todir="libs">
+    <fileset dir="/home/sebastian/java/workspace/limpiar.copiar/target">
+      <include name="*.jar"/>
+    </fileset>
+  </copy>
+</target>
+</project>
